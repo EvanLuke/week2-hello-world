@@ -8,3 +8,12 @@
 
 # make sure that your code contains comments explaining your logic!
 
+print('Hello! Please choose your preferred language: Enter 1 for English, Enter 2 for Spanish, Enter 3 for French.')
+choice = input()
+if choice == '1':
+    print('Hello')
+elif choice == '2':
+    print('Hola')
+elif choice == '3':
+    print ('Bonjour')
+    
